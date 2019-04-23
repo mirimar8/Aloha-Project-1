@@ -580,6 +580,22 @@ h2 span {
     .cart-icon {
         width: 80%;
     }
+
+    /* ------------banner------------- */
+
+    
+    .collection {
+        font-size: 1.3rem;
+        
+      
+    }
+    
+    .season {
+        font-size: 3rem;
+        line-height: 1rem;
+    
+    }
+    
         
     
 /* -----------footer--------------- */
@@ -688,6 +704,31 @@ h2 span {
     .cart-icon {
         width: 60px;
         
+    }
+
+
+    /* -------banner------- */
+
+    .banner {
+        height: 550px;
+        background-image: url("images/banner-girl.png"), url("images/flower-bkgd.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom, center;
+        background-size: 230px 500px, cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+    .collection {
+        font-size: 1.3rem;
+      
+    }
+    
+    .season {
+        font-size: 4rem;
+    
     }
 
 }
