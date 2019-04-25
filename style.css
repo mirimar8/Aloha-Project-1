@@ -244,6 +244,7 @@ h2 span {
     background-image: url("images/mens-category.jpg");
     background-size: cover;
     
+    
 }
 
 
@@ -595,6 +596,37 @@ h2 span {
         line-height: 1rem;
     
     }
+
+    /* --------------products section------------ */
+
+    .products-gallery {
+        
+    
+    }
+
+    .prducts-gallery div {
+        height: 250px;
+    }
+
+    
+    .wide-box {
+        flex-basis: 50%;
+
+       
+    }
+
+    .square-box {
+        flex-basis: 25%;
+       
+       
+    }
+
+    .mens, .bags {
+        border-right: 8px solid white;
+    }
+
+   
+    
     
         
     
@@ -730,5 +762,13 @@ h2 span {
         font-size: 4rem;
     
     }
+
+    /* ------------about section----------- */
+
+    .about-section {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
 
 }
