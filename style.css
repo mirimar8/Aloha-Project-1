@@ -197,7 +197,7 @@ h2 span {
 /* products section 
 --------------------------------*/
 
-.products-gallery {
+.products-section{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -364,6 +364,7 @@ h2 span {
     text-shadow: 1px 1px 8px rgb(136, 133, 133);
 
 }
+
 
 
 .your-email {
@@ -599,25 +600,19 @@ h2 span {
 
     /* --------------products section------------ */
 
-    .products-gallery {
-        
     
-    }
 
-    .prducts-gallery div {
+    .prducts-section div {
         height: 250px;
     }
 
-    
     .wide-box {
         flex-basis: 50%;
 
-       
     }
 
     .square-box {
         flex-basis: 25%;
-       
        
     }
 
@@ -626,11 +621,16 @@ h2 span {
     }
 
    
-    
+    /* -------------updates section--------- */
+   
+    .sign-up-form {
+        
+    }
+
     
         
     
-/* -----------footer--------------- */
+    /* -----------footer--------------- */
 
     .footer-content {
         display: flex;
@@ -770,5 +770,21 @@ h2 span {
         padding-bottom: 90px;
     }
 
+    /* -----------------products section---------- */
+
+
+    .products-section div {
+        height: 350px;
+    }
+
+    .product-name a {
+       
+       
+        font-size: 2.5rem;
+        /* font-weight: 500; */
+        
+        
+      
+    }
 
 }
