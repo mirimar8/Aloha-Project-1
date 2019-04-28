@@ -65,13 +65,17 @@ h2 span {
 
 }
 
+ 
+
 /* header section
 -------------------------------*/
 
+.nav-list li a:hover { 
+    color: #b64036;
+}
 
  .top-header {
     max-width: 95%;
-    /* height: 110px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -130,7 +134,7 @@ h2 span {
 }
 
 .cart-icon {
-    max-width: 60%;
+    width: 50px;
     
 }
 
@@ -219,6 +223,10 @@ h2 span {
     text-shadow: 1px 1px 3px rgb(49, 44, 44);
     
   
+}
+
+.product-name a:hover {
+    color: rgb(255, 233, 184);
 }
 
 .wide-box {
@@ -404,7 +412,14 @@ h2 span {
     background-color: #e2574c;
     font-size: 1rem;
     color: white;
+    cursor: pointer;
 }
+
+.subscribe:hover {
+    background-color: #b64036;
+}
+
+
 
 
 
@@ -429,6 +444,12 @@ h2 span {
     margin-left: 5px;
 
 }
+
+.phone-email a:hover {
+    color: #b64036;
+
+}
+
 
 .phone-email{
     padding-bottom: 15px;
@@ -463,86 +484,14 @@ h2 span {
 
 }
 
+.social-list li a:hover {
+    color: #b64036;
+
+}
+
 .network-name {
     display: none;
 }
-
-
-
-
-
-/* styling for the 1240px screen
-------------------------------------- */
-
-/* 
-.bottom-footer {
-    background-color: #242424;
-    
-}
-
-.footer-content {
-    width: 1240px;
-    height: 300px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.info-contact {
-    display: flex;
-    height: 200px;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: left;
-    margin-left: 3%;
-    
-}
-
-.copyright {
-    color: white;
-}
-   
-.phone-email {
-   
-    color: white;
-}
-
-.phone-email a {
-    color: white;
-}
-
-.address {
-    color: #969696;
-}
-
-.social {
-    height: 200px;
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-around;
-    margin-right: 10%;
-    
-
-}
-.social-list {
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
-}
-
-.social-list li a {
-    text-decoration: none;
-    color: white;
-
-}
-
-.social-list i {
-    padding-right: 1rem;
-    
-} */
 
 
 
@@ -556,7 +505,7 @@ h2 span {
 @media screen and (min-width: 600px) {
 
     html, body {
-        font-size: 16px;
+        font-size: 14px;
 
     }
 
@@ -592,10 +541,7 @@ h2 span {
         order: 3;
     }
 
-    .cart-icon {
-        width: 80%;
-    }
-
+    
     /* ------------banner------------- */
 
     
@@ -613,7 +559,7 @@ h2 span {
 
     /* -----------------about section----------- */
 
-    .about-section p{
+    .about-section p {
         font-size: 1.1rem;
         margin-left: 20%;
         margin-right: 20%;
@@ -661,10 +607,49 @@ h2 span {
 
    
     /* -------------updates section--------- */
-   
-    .sign-up-form {
+    .updates {
+        height: 400px;
         
     }
+    
+    .updates h2 {
+        font-size: 3rem;
+    }
+    
+    .updates p {
+        font-size: 1.3rem;
+        padding: 5% 15%;
+       
+    
+    }
+    
+    /* .your-email {
+        border-radius: 20px;
+        border: none;
+        width: 90%;
+        height: 40px;
+        position: relative;
+        bottom: 4px;
+        color: #969696;
+        font-size: 1rem;
+        padding-left: 20px;
+        font-weight: 100;
+    
+    }
+    
+    .subscribe {
+        position: absolute;
+        right: 33px;
+        border-radius: 20px;
+        width: 110px;
+        height: 33px;
+        background-color: #e2574c;
+        font-size: 1rem;
+        color: white;
+        cursor: pointer;
+    } */
+        
+    
 
     
         
@@ -716,7 +701,7 @@ h2 span {
         
     }
 
-
+}
     
 /* desktop
 --------------------------------------------- */
@@ -820,9 +805,7 @@ h2 span {
     }
 
     .product-name a {
-       
         font-size: 2.5rem;
-        /* font-weight: 500; */
         
     }
 
@@ -843,6 +826,4 @@ h2 span {
     
     
     }
-
-
 }
