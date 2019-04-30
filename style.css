@@ -399,7 +399,7 @@ h2 span {
 .your-email {
     border-radius: 20px;
     border: none;
-    width: 100%;
+    width: 90%;
     height: 45px;
     color: #969696;
     font-size: 1rem;
@@ -410,7 +410,7 @@ h2 span {
 
 .subscribe {
     position: absolute;
-    right: 3px;
+    right: 23px;
     top: 3px;
     border-radius: 20px;
     width: 115px;
@@ -634,10 +634,14 @@ h2 span {
         padding: 0 10%;
        
     }
+
+    .your-email {
+        width: 100%;
+    }
     
     .subscribe {
         position: absolute;
-        right: 5px;
+        right: 3px;
        
     } 
         
@@ -841,7 +845,7 @@ h2 span {
     
     .subscribe {
         position: absolute;
-        right: 5px;
+        right: 3px;
        
     } 
 
