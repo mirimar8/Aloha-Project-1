@@ -105,7 +105,7 @@ h2 span {
 }
 
 .nav-list li a {
-    color: #e2574c;
+    color: #a7241b;
     text-decoration: none;
 }
 
@@ -281,12 +281,12 @@ h2 span {
 
 .category-name {
     font-size: 0.8rem;
-    color: #969696;
+    color: #757575;
     font-weight: 500;
 }
 
 .product-description {
-    color: #e2574c;
+    color: #a7241b;
     font-size: 1.5rem;
     font-family: Playfair Display;
     font-weight: 400;
@@ -294,7 +294,7 @@ h2 span {
 
 .price {
     font-size: 1rem;
-    color: #969696;
+    color: #757575;
     font-weight: 500;
     padding-top: 2%;
 }
@@ -337,7 +337,7 @@ h2 span {
     border: none;
     width: 90%;
     height: 45px;
-    color: #969696;
+    color: #757575;
     font-size: 1rem;
     padding-left: 20px;
     font-weight: 100;
@@ -350,7 +350,7 @@ h2 span {
     border-radius: 20px;
     width: 115px;
     height: 38px;
-    background-color: #e2574c;
+    background-color: #b64036;
     font-size: 1rem;
     color: white;
     cursor: pointer;
