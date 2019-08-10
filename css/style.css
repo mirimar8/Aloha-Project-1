@@ -143,10 +143,6 @@ h2 span {
     height: 400px;
 }
 
-/* .banner-content {
-    width: 80%;
-} */
-   
 .collection {
     text-align: center;
     color: white;
@@ -423,6 +419,17 @@ h2 span {
     text-decoration: none;
     color: white;
     padding: 7px;
+}
+
+#label-fb {
+    padding-left: 7px;
+}
+#label-ig {
+    padding-left: 3px;
+}
+
+#label-pi {
+    padding-left: 2px;
 }
 
 .social-list li a:hover {
