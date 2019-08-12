@@ -14,21 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   });
 
-  // function subscribe(event) {
-
-  //   event.preventDefault();
-  //   const email = document.getElementsByClassName('your-email')[0].value;
-
-  //   if (email === '') {
-  //     alert('Please submit a valid email address');
-  //   } else {
-  //     alert('Thanks for subscribing!');
-  //   }
-  // };
-
-  // document.querySelector('.subscribe').addEventListener('click', subscribe);
-
-
 
   function ValidateEmail(event) {
     console.log(event);
